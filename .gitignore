@@ -7,7 +7,6 @@ run/
 # Files from Forge MDK
 forge*changelog.txt
 CREDITS.txt
-gradle.properties
 LICENSE.txt
 LICENSE-Paulscode IBXM Library.txt
 LICENSE-Paulscode SoundSystem CodecIBXM.txt
