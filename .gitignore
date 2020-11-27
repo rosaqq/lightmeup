@@ -1,12 +1,17 @@
-# Files from Forge MDK
-forge*changelog.txt
-
 # Created by https://www.toptal.com/developers/gitignore/api/java,intellij,gradle,forgegradle
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,intellij,gradle,forgegradle
 
 ### ForgeGradle ###
 # Minecraft client/server files
 run/
+# Files from Forge MDK
+forge*changelog.txt
+CREDITS.txt
+gradle.properties
+LICENSE.txt
+LICENSE-Paulscode IBXM Library.txt
+LICENSE-Paulscode SoundSystem CodecIBXM.txt
+README.txt
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
