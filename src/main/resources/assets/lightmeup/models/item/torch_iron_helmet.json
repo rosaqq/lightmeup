@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lightmeup:items/torch_iron_helmet"
+  }
+}
