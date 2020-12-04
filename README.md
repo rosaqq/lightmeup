@@ -10,10 +10,12 @@ Same armor value but lights up the world around you!
   - [x] Recipes added  
   - [ ] Light up surroundings  
 - [ ] **Gold version**
-  - [ ] Item texture
+  - [x] Item texture
   - [ ] Equipped texture
-  - [ ] Mirror iron code to implement
+  - [x] Mirror iron code to implement
+  - [ ] Light up surroundings
 - [ ] **Diamond version**
   - [ ] Item texture
   - [ ] Equipped texture
   - [ ] Mirror iron code to implement
+  - [ ] Light up surroundings
