@@ -15,7 +15,7 @@ Same armor value but lights up the world around you!
   - [x] Mirror iron code to implement
   - [ ] Light up surroundings
 - [ ] **Diamond version**
-  - [ ] Item texture
+  - [x] Item texture
   - [ ] Equipped texture
-  - [ ] Mirror iron code to implement
+  - [X] Mirror iron code to implement
   - [ ] Light up surroundings

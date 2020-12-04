@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "Z": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "lightmeup:torch_diamond_helmet"
+  }
+}
