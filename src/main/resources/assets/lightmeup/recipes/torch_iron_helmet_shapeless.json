@@ -1,10 +1,10 @@
 {
   "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {"item": "minecraft:iron_helmet"},
-        {"item": "minecraft:torch"}
-    ],
-    "result": {
-        "item": "lightmeup:torch_iron_helmet"
-    }
+  "ingredients": [
+    {"item": "minecraft:iron_helmet"},
+    {"item": "minecraft:torch"}
+  ],
+  "result": {
+    "item": "lightmeup:torch_iron_helmet"
+  }
 }
