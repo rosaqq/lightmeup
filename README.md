@@ -7,7 +7,7 @@ Same armor value but lights up the world around you!
   - [x] Basic item with texture
   - [x] Can be equipped  
   - [ ] Equipped texture
-  - [ ] Recipes added  
+  - [x] Recipes added  
   - [ ] Light up surroundings  
 - [ ] **Gold version**
   - [ ] Item texture
