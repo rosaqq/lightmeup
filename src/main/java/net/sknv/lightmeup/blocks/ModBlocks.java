@@ -13,5 +13,6 @@ public class ModBlocks {
 
     // todo: make this block dynamically get he texture of the block it replaces in the overworld
     // https://github.com/TheGreyGhost/MinecraftByExample/tree/1-12-2-final/src/main/java/minecraftbyexample/mbe04_block_dynamic_block_model1
+    // https://forums.minecraftforge.net/topic/60867-112x-solved-for-real-this-time-settingcopying-a-block-model-fromto-another-block/
     public static final Block LIGHT_BLOCK = new BlockBase("light_block", Material.ROCK);
 }
