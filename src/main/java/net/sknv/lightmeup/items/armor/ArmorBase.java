@@ -5,7 +5,7 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import net.sknv.lightmeup.IHasModel;
 import net.sknv.lightmeup.LightMeUp;
-import net.sknv.lightmeup.ModItems;
+import net.sknv.lightmeup.items.ModItems;
 
 public class ArmorBase extends ItemArmor implements IHasModel {
 

@@ -4,7 +4,6 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.sknv.lightmeup.IHasModel;
 import net.sknv.lightmeup.LightMeUp;
-import net.sknv.lightmeup.ModItems;
 
 public class ItemBase extends Item implements IHasModel {
 

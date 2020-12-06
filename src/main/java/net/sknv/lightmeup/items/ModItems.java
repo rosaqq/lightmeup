@@ -1,4 +1,4 @@
-package net.sknv.lightmeup;
+package net.sknv.lightmeup.items;
 
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
