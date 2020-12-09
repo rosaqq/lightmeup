@@ -44,6 +44,6 @@ http://mcforge.readthedocs.io/en/latest/gettingstarted/
 
 - IntelliJ instructions:
   1. Open IDEA, select import project.
-  2. Select your build.gradle on the import GUI.
+  2. Select the build.gradle file on the import GUI.
   3. Run `gradlew genIntellijRuns` in the project folder.
-  4. Refresh the Gradle Project in IDEA if required.
+  4. Refresh the Gradle Project / restart IDEA if required.
