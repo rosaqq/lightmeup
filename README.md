@@ -27,6 +27,10 @@ Current idea:
 - As the player walks, constantly replace the blocks beneath him with a "copy" that has lighting level set to 15.
 - The copy has dynamic textures based on [TheGreyGhost's CamouflageBlock](https://github.com/TheGreyGhost/MinecraftByExample/tree/1-12-2-final/src/main/java/minecraftbyexample/mbe04_block_dynamic_block_model1).
 
+#### Dynamic Lighting Roadmap
+- [x] Working CamouflageBlock code.  
+- [ ] Modify CamouflageBlock so we can specify which block it will copy.  
+- [ ] Auto replace block below player wearing torch helmet.  
 <hr>
 
 ## Project Setup Instructions
