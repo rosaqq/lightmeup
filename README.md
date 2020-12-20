@@ -51,3 +51,7 @@ http://mcforge.readthedocs.io/en/latest/gettingstarted/
   2. Select the build.gradle file on the import GUI.
   3. Run `gradlew genIntellijRuns` in the project folder.
   4. Refresh the Gradle Project / restart IDEA if required.
+  5. To fix assets not loading in the dev env, edit the Run Configurations:
+     1. In the "Before Launch" zone, add task (click the plus).
+     2. Int he "Add New Task" dialog, select "Build Artifacts".
+     3. Select and add the "assets" artifact.
