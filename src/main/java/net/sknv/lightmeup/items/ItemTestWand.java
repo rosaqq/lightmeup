@@ -15,7 +15,7 @@ import net.sknv.lightmeup.blocks.BlockLight;
 import net.sknv.lightmeup.blocks.ModBlocks;
 import net.sknv.lightmeup.blocks.UnlistedPropertyCopiedBlock;
 
-public class ItemTestWand extends ItemBase{
+public class ItemTestWand extends ItemBase {
 
     public ItemTestWand(String name) {
         super(name);
@@ -23,12 +23,7 @@ public class ItemTestWand extends ItemBase{
 
     @Override
     public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-        IBlockState original = worldIn.getBlockState(pos);
-        IExtendedBlockState newState = (IExtendedBlockState) ModBlocks.LIGHT_BLOCK.getBlockState().getBaseState();
-        newState.withProperty(BlockLight.COPIEDBLOCK, original);
-        worldIn.setBlockState(pos, newState);
-        player.sendMessage(new TextComponentString("used"));
-
-        return super.onItemUse(player, worldIn, pos, hand, facing, hitX, hitY, hitZ);
+        player.sendMessage(new TextComponentString("hello"));
+        return EnumActionResult.SUCCESS;
     }
 }
