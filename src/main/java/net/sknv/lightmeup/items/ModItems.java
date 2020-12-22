@@ -1,19 +1,9 @@
 package net.sknv.lightmeup.items;
 
-import javafx.scene.LightBase;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
-import net.minecraft.util.EnumActionResult;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
-import net.minecraftforge.common.property.IExtendedBlockState;
 import net.minecraftforge.fml.common.Mod;
-import net.sknv.lightmeup.blocks.BlockLight;
 import net.sknv.lightmeup.items.armor.ArmorBase;
 
 import java.util.ArrayList;
