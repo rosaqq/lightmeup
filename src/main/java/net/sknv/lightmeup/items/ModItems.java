@@ -29,14 +29,4 @@ public class ModItems {
     public static final Item TORCH_IRON_HELMET = new ArmorBase("torch_iron_helmet", ItemArmor.ArmorMaterial.IRON, 1, EntityEquipmentSlot.HEAD);
     public static final Item TORCH_GOLD_HELMET = new ArmorBase("torch_gold_helmet", ItemArmor.ArmorMaterial.GOLD, 1, EntityEquipmentSlot.HEAD);
     public static final Item TORCH_DIAMOND_HELMET = new ArmorBase("torch_diamond_helmet", ItemArmor.ArmorMaterial.DIAMOND, 1, EntityEquipmentSlot.HEAD);
-    public static final Item TEST_WAND = new ItemTestWand("test_wand");
-
-    public static final Item NAME_WAND = new ItemTestWand("sout_wand") {
-        @Override
-        public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-            IBlockState state = worldIn.getBlockState(pos);
-            System.out.println(state);
-            return EnumActionResult.SUCCESS;
-        }
-    };
 }

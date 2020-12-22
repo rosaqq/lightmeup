@@ -7,9 +7,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.sknv.lightmeup.blocks.ModBlocks;
 import net.sknv.lightmeup.proxy.CommonProxy;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = LightMeUp.MODID, name = LightMeUp.NAME, version = LightMeUp.VERSION)
@@ -32,18 +30,13 @@ public class LightMeUp {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        logger = event.getModLog();
-        logger.log(Level.DEBUG, "pre init");
-        ModBlocks.preInitClient();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-
     }
 }

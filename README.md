@@ -7,7 +7,7 @@ Same armor value but lights up the world around you!
 #### Dynamic lighting SHELVED! 
 #### Focus on armor model!
 
-- [ ] remove all the camouflage block stuff
+- [x] remove all the camouflage block stuff
 
 - [ ] **Iron version**
   - [x] Basic item with texture
